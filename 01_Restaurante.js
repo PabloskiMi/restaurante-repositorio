@@ -64,3 +64,34 @@ do {
 
 } while (op != "Salir");
 
+
+document.write("<h1>CUENTA</h1>");
+
+
+if (nNachos > 0) {
+
+    document.write("<h2>" + nNachos + " - Nachos $" + (nNachos * 30) + "</h2>");
+
+} if (nPizza > 0) {
+
+    document.write("<h2>" + nPizza + " - Pizza(s) $" + (nPizza * 120) + "</h2>");
+
+} if (nTaco > 0) {
+
+    document.write("<h2>" + nTaco + " - Taco(s) $" + (nTaco * 10) + "</h2>");
+
+} if (nAguaNatural > 0) {
+
+    document.write("<h2>" + nAguaNatural + " - Agua Natural $" + (nAguaNatural * 15) + "</h2>");
+
+} if (nSoda > 0) {
+
+    document.write("<h2>" + nSoda + " - Soda(s) $" + (nSoda * 30) + "</h2>");
+
+} if (nCerveza > 0) {
+
+    document.write("<h2>" + nCerveza + " - Cerveza(s) $" + (nCerveza * 45) + "</h2>");
+
+}
+
+document.write("<h1>Total: $ " + total + "</h1>");
